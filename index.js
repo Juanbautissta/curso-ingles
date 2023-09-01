@@ -1,7 +1,7 @@
 require ()
 const express = require('express');
 const app = express();
-const productController = require('./server/controllers/productController');
+const questionController = require('./server/controllers/questionController');
 
 app.get('/api/questions', productController.getAll);
 app.post('/api/answer', productController.create);
