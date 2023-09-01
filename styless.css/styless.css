@@ -1,6 +1,8 @@
 * {
-box-sizing: border-box;
-};
+    box-sizing: border-box;
+}
+
+;
 
 img {
     display: block;
@@ -8,5 +10,16 @@ img {
 }
 
 body {
-margin: 0;
+    margin: 0;
 }
+
+.contenedor {
+    margin: auto;
+    width: 98%;
+}
+
+/*-----------------Header Styless-----------------*/
+.header {
+    height: 60px;
+}
+
