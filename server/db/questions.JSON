@@ -1,0 +1,134 @@
+[
+    {
+        "nivel": "basico",
+        "question": "Who is this man? This is Henry. _____ is my boss.",
+        "answer": [
+            {
+                "text": "Her",
+                "correct": false
+            },
+            {
+                "text": "He",
+                "correct": true
+            },
+            {
+                "text": "She",
+                "correct": false
+            },
+            {
+                "text": "His",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "nivel": "basico",
+        "question": "Who is Kate? Kate is my friend. ____ is a teacher.",
+        "answer": [
+            {
+                "text": "Her",
+                "correct": false
+            },
+            {
+                "text": "He",
+                "correct": false
+            },
+            {
+                "text": "She",
+                "correct": true
+            },
+            {
+                "text": "His",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "nivel": "basico",
+        "question": "Do you know Tom? Yes, I know _____.",
+        "answer": [
+            {
+                "text": "Her",
+                "correct": false
+            },
+            {
+                "text": "He",
+                "correct": false
+            },
+            {
+                "text": "She",
+                "correct": false
+            },
+            {
+                "text": "His",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "nivel": "intermedio",
+        "question": "This car is ____ car. This car is his.",
+        "answer": [
+            {
+                "text": "he",
+                "correct": false
+            },
+            {
+                "text": "her",
+                "correct": false
+            },
+            {
+                "text": "his",
+                "correct": false
+            },
+            {
+                "text": "hers",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "nivel": "intermedio",
+        "question": "This house is our house. This house is ____.",
+        "answer": [
+            {
+                "text": "our",
+                "correct": true
+            },
+            {
+                "text": "ours",
+                "correct": false
+            },
+            {
+                "text": "we",
+                "correct": false
+            },
+            {
+                "text": "its",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "nivel": "intermedio",
+        "question": "This hat is my hat. This hat is ____.",
+        "answer": [
+            {
+                "text": "I",
+                "correct": false
+            },
+            {
+                "text": "me",
+                "correct": false
+            },
+            {
+                "text": "mine",
+                "correct": true
+            },
+            {
+                "text": "its",
+                "correct": false
+            }
+        ]
+    }
+]
