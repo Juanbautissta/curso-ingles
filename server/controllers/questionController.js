@@ -2,13 +2,18 @@ const { conectarDB, desconectarDB  } = require("../db/connection");
 const Question = require("../db/schemas/questionSchema")
 
 const getAll = async (req, res) => {
-    console.log("test")
-    const { level } = req.query
+    const { nivel } = req.query
+    console.log(nivel)
     await conectarDB();
-    const questions = await Question.find({level});
+    const questions = await Question.find({nivel});
     await desconectarDB();
     res.json(questions);
 };
+
+const results = async (req, res) => {
+    console.log(req.body)
+    // aca iria la logica para evaluar 
+}
 
 const create = async (req, res) => {
     const { nivel, question, answer } = req.body;
