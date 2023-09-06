@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <section>
-            <div class="contenedor">
+            <div class="">
                 <h1 class="logo">Curso-Inglés</h1>
                 <span class="icon-menu" id="btn-menu"></span>
                 <nav class="swanky_wrapper">
@@ -53,22 +53,25 @@
                         <div class='swanky_wrapper__content'>
                             <ul>
                                 <li><a href="">Recursos</a></li>
-                                <li><a href="">Traductor<</a>/li>
-                                <li><a href="">Conjugador</a></li> 
+                                <li><a href="">Traductor<< /a>/li>
+                                <li><a href="">Conjugador</a></li>
                             </ul>
                         </div>
                     </label>
-                    <article>
-                        <p>Registrate y forma parte de nuestra comunidad</p>
-                        <button>Regístrate</button>
-                    </article>
-                    <ul>
-                        <a href="">
-                            <li>Acceder</li>
-                        </a>
-                    </ul>
-                </nav>
-
+                    <input id='Settings' radio='radio' type='radio'>
+                    <label for='Settings'>
+                        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/set.png'>
+                        <span>Settings</span>
+                        <div class='lil_arrow'></div>
+                        <div class='swanky_wrapper__content'>
+                            <ul>
+                                <li>Databases</li>
+                                <li>Design</li>
+                                <li>Change User</li>
+                                <li>Log Out</li>
+                            </ul>
+                        </div>
+                    </label>
         </section>
         <section class="banner">
             <article class="contenedor">
@@ -80,34 +83,22 @@
         </section>
     </header>
     <main class="main">
-        <section class="cursos">
-            <h2 class="section__titulo">Cursos de inglés listos para que empieces a aprender</h2>
-            <div class="cursos__columna">
-                <a href="">
-                    <article class="cursos__descripcion">
-                        <span>Nivel Básico</span>
-                        <p>Curso básico de inglés para los que están empezando</p>
-                    </article>
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <article class="cursos__descripcion">
-                        <span>Nivel Intermedio</span>
-                        <p>Curso intermedio de inglés para los que dominan los conceptos básicos del lenguaje</p>
-                    </article>
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <article class="cursos__descripcion">
-                        <span>Nivel Avanzado</span>
-                        <p>Curso para usuarios avanzados, para los que quieren perfeccionar su inglés</p>
-                    </article>
-                </a>
-            </div>
-
-        </section>
+        <div class="contenedor">
+            <section class="info">
+                <article class="info__columna">
+                    <h2 class="info__titulo">Nivel Básico</h2>
+                    <p class="info__txt">Curso básico de inglés para los que están empezando</p>
+                </article>
+                <article>
+                    <h2 class="info__titulo">Nivel Intermedio</h2>
+                    <p class="info__txt">Curso intermedio de inglés para los que dominan los conceptos básicos del lenguaje</p>
+                </article>
+                <article>
+                    <h2 class="info__titulo">Nivel Avanzado</h2>
+                    <p class="info__txt">Curso para usuarios avanzados, para los que quieren perfeccionar su inglés</p>
+                </article>
+            </section>
+        </div>
     </main>
     <footer>
         <section>
