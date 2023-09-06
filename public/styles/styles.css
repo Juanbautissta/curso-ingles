@@ -32,7 +32,7 @@ body {
   height: 100vh;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(135deg, #8254ea 0%, #e86dec 100%);
+  background: linear-gradient(135deg, #666666 0%, #515151 100%);
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
 }
@@ -376,9 +376,4 @@ input[type=radio]:checked + label li:nth-of-type(4) {
     display: none;
 }
 
-.info__columna {
-    background: purple;
-    color: black;
-    padding: 15px;
-    margin-bottom: 30px;
-}
+
