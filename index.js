@@ -16,10 +16,7 @@ app.post('/api/answer', questionController.create);
 app.post('/api/results', questionController.results);
 
 app.get('/', navigationController.goIndex);
-app.get('/basico', navigationController.goBasico);
-app.get('/intermedio', navigationController.goIntermedio);
-app.get('/avanzado', navigationController.goAvanzado);
-
+app.get('/questions', navigationController.goQuestions);
 app.listen(8000, () => {
     console.log('Servidor corriendo en puerto 8000');
 });

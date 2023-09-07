@@ -5,24 +5,13 @@ function goIndex(req, res){
     res.sendFile(filePath);
 }
 
-function goBasico(req, res){
-    const filePath = path.join(__dirname, '../../public/basico.html')
+function goQuestions(req, res){
+    const filePath = path.join(__dirname, '../../public/questions.html')
     res.sendFile(filePath);
 }
 
-function goIntermedio(req, res){
-    const filePath = path.join(__dirname, '../../public/intermedio.html')
-    res.sendFile(filePath);
-}
-
-function goAvanzado(req, res){
-    const filePath = path.join(__dirname, '../../public/avanzado.html')
-    res.sendFile(filePath);
-}
 
 module.exports = {
     goIndex,
-    goBasico,
-    goIntermedio,
-    goAvanzado
+    goQuestions
 }
