@@ -22,7 +22,6 @@ function goAvanzado(req, res){
 
 module.exports = {
     goIndex,
-    goNosotros,
     goBasico,
     goIntermedio,
     goAvanzado

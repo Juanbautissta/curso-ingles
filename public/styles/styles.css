@@ -385,3 +385,12 @@ input[type=radio]:checked + label li:nth-of-type(4) {
   color: #eff4fa;
 }
 
+.contenedorBanner {
+  display: block;
+  margin-left: 45%;
+}
+
+.info__columna {
+  display: block;
+}
+
